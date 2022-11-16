@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: #7887AB;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+#tasbih-body{
+    background-color: #2E4272;
+    height: 550px;
+    width: 550px;
+    border-radius: 100px;
+}
+#tasbih-screen{
+    background-color: #fffffff3;
+    height: 150px;
+    width: 500px;
+    border-radius: 20px;
+    margin: 80px 25px 30px 25px;
+}
+#counter-content{
+    height: 140px;
+    width: 470px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    font-size: 70px;
+}
+.btns-contnair{
+    height: 10px;
+    width: 500px;
+    margin: 40px 25px 30px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-structure{
+    height: 80px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+#remove-btn{
+    background-color: #D05A50;
+}
+#reset-btn{
+    background-color: #58B058;
+}
+#add-btn{
+    background-color: #061539;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border: none;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:300px;
+    cursor: pointer;
+}
+.btns-text-color{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+footer{
+    background-color: #162955;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
