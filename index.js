@@ -10,6 +10,10 @@ addBtn.addEventListener("click", function addCounter() {
 })
 removeBtn.addEventListener("click",function removeCounter() {
     counter -= 1
+    if(counter === 0){
+        counter = 0
+        counterContent.textContent = counter
+    }    
     counterContent.textContent = counter
 })
 resetBtn.addEventListener("click", function resetCounter() {
